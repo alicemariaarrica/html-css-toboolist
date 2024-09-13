@@ -1,36 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>ToBoolist</title>
+    <link rel="stylesheet" href="Css/style.css">
+        
 </head>
 
-
 <body>
-    <header>
-        <div class= container> 
-             <img id="logo_img" src="./img/Logo.png">
+    <header class="container">
+        <img style="height: 4rem;" src="./img/Logo.png" alt="Logo">
+        <h1>ToBoolist</h1>
+    </header>
 
-             <h1 id="logo_txt">Toboolist</h1>
-         </div>
-     </header>
-     
-     
-        <h3 class="subtitle">new task</h3>
-        <h5>Quarterly newsletter <span class="editorial">Editorial</span></h5>
-        <h3 class="subtitle">Today</h3>
-        <h5>Recruiting blog post <span class="editorial">editorial</span></h5>
-    
-        
-        <h5>Mobile app luaunch</h5>
-        <h5>Recruiting blog post <span class="editorial">Editorial</span></h5>
-        <h5>Mobile app luaunch <span class="Q1 goals">Q1 goals</span></h5>
-        <h5>Interview Jonh H.</h5>
-        <h5>Summit update to mobile storefronts</h5>
-        <h3 class="subtitle">Upcoming</h3>
+    <main>
+        <nav>
+            <div>
+                <div class="add_task">Add Task</div>
+                <div class="add_section">Add Section</div>
+            </div>
+        </nav>
+        <!-- nanvigation -->
+        <section>
+            <h2 class="margin_left marginY"><span>&#9660</span>New Task</h2>
+            <div class="task margin_left marginY">&#9989; Quarterly Newsletter
+                <div class="editorial">Editorial</div>
+            </div>
+            
+        </section>
+        <!-- New Task -->
+        <section>
+            <h2 class="margin_left marginY"><span>&#9660</span>Today</h2>
+            <div class="task margin_left marginY">&#9989; Recruiting blog post
+                <div class="editorial">Editorial</div>
+            </div><br>
+            
+            <div class="task margin_left marginY">&#9989; Mobile app launch
+                <div class="type q1goals">Q1 Goals</div>
+            </div><br>
+            
+            <div class="task margin_left marginY">&#10060; Interview Jhon H.
+                <div class="type recruiting">Recruiting</div>
+            </div><br>
+            
+            <div class="task margin_left marginY">&#9989; Summit update to mobile storefronts
+                <div class="type mobile">Editorial</div>
+            </div><br>
+        </section>
+        <!-- Today -->
+        <section>
+            <h2 class="margin_left marginY"><span>&#9660</span>Upcoming</h2>
+            <div class="task margin_left marginY">&#10060; Schedule meeting with Alex
+            </div><br>
+            
+            <div class="task margin_left marginY">&#9989; Hompage refresh
+                <div class="type website">Editorial</div>
+            </div><br>
+            
+            <div class="task margin_left marginY">&#9989; Onboard new Sales team members
+                <div class="type sales">Editorial</div>
+            </div><br>
+            
+            <div class="task margin_left marginY">&#9989; Review editorial calendar
+                <div class="editorial">Editorial</div>
+            </div><br>
+        </section>
+        <!-- Upcoming -->
+    </main>
 
-     
 </body>
+
 </html>
